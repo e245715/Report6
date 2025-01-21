@@ -9,7 +9,7 @@ public class Person {
     private LocalDate birthDay;
     
     //コンストラクタ
-    Person(String name,LocalDate birDate,LocalDate joiDate){
+    public Person(String name,LocalDate birDate){
         this.name = name;
         this.birthDay = birDate;
         
