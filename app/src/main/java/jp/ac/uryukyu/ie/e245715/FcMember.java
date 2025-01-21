@@ -9,7 +9,7 @@ public class FcMember extends Person {
     private LocalDate joinDate;
     private String Oshimen;
 
-    FcMember(String name,LocalDate birthDate,LocalDate joinDate,String Oshimen){
+    public FcMember(String name,LocalDate birthDate,LocalDate joinDate,String Oshimen){
 
         super(name, birthDate);
 
