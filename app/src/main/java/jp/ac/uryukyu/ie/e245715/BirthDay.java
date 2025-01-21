@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class BirthDay extends Person{
 
-    BirthDay(String name,LocalDate birthDate){
+    public BirthDay(String name,LocalDate birthDate){
         super(name, birthDate);
     }
 
